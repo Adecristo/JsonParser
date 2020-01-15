@@ -8,3 +8,5 @@ Zadaniem programu jest analiza Jsona(odpowiedzi) wygenerowanego przez publiczne 
 - Uporządkowanie danych do specjalnie przygotowanych kontenerów (klasy dziedziczące oraz templatki w pliku <b>uJbDetails.h</b>)
 - Plik <b>uJbDetailsManager.h/cpp</b> odpowiada za zapis/odczyt z bazy.
 - Natomiast parsowanie danych otrzymanych z serwera odbywa się w pliku <b>uJsonParser.h/cpp</b>.
+
+![alt text](https://ibb.co/QCrRvMn)
