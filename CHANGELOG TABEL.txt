@@ -1,0 +1,24 @@
+#NEW table
+t_jbpkd
+jb_id
+jb_nr
+jb_pkd
+
+#NEW table
+t_jboddzialy
+jb_id
+jb_nazwa_oddzialu
+jb_nr
+
+#Changed t_jborganzal
+[-]jb_symb_jedn
+[-]jb_czlonek
+[-]jb_funkcja
+[+]jb_nr
+>>zmiana jb_id na serial
+
+#Changed t_jbadkierownictwo
+[-]data_wpis
+[-]jb_symb_jedn
+[+]jb_nr
+>>zmiana jb_id na serial

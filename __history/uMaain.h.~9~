@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+
+#ifndef uMaainH
+#define uMaainH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ComCtrls.hpp>
+//---------------------------------------------------------------------------
+class TuMain : public TForm
+{
+__published:	// IDE-managed Components
+	TListView *lvProfiles;
+	TListView *lvDepentComp;
+	TListView *lvRepresent;
+	TListView *lvBranches;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
+private:	// User declarations
+	//tmp function
+	void LoadListView(TListView *lv, TStringList *data);
+public:		// User declarations
+	__fastcall TuMain(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TuMain *uMain;
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "uJbDetails.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+JbPkd::JbPkd(int Id, int NrJb, String Pkd, bool Active){
+	JbPkd::_Id = Id;
+	JbPkd::_NrJb = NrJb;
+	JbPkd::_Pkd = Pkd;
+	JbPkd::_Active = Active;
+}
+
+/*String JbPkd::GetStringValue(){
+	return JbPkd::_Pkd;
+} */
+

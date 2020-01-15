@@ -1,0 +1,112 @@
+﻿//---------------------------------------------------------------------------
+
+#ifndef uJbDetailsH
+#define uJbDetailsH
+//---------------------------------------------------------------------------
+#endif
+#include <vcl.h>
+#include <System.Classes.hpp>
+
+
+//abstrakcyjna klasa dla pojedynczych Detali
+class JbDetail : public TObject {
+	protected:
+	int _Id, _NrJb;
+	bool _Active;
+	public:
+	virtual String GetStringValue() = 0;
+	__property int Id = {read = _Id};
+	__property int NrJb = {read = _NrJb};
+	__property bool Active = {read = _Active};
+};
+
+//jednostka badana - pkd
+class JbPkd : public JbDetail {
+	private:
+	String _Pkd;
+
+	public:
+	//__property String Pkd = {read = _Pkd};
+	JbPkd(int Id, int NrJb, String Pkd, bool Active);
+	String GetStringValue();
+};
+
+//jb - oddzialy
+class JbBranch : public JbDetail {
+	private:
+	String _BranchName;
+
+	public:
+	JbBranch(int Id, int NrJb, String BranchName, bool Active);
+	String GetStringValue();
+};
+
+//jb - organizacje zalezne
+class JbDependComp : public JbDetail {
+	private:
+	String _DepCompName;
+
+	public:
+	JbDependComp(int Id, int NrJb, String DepCompName, bool Active);
+	String GetStringValue();
+};
+
+//jb - reprezentacja
+class JbRepresentingPerson : public JbDetail {
+	private:
+	String _FullName, _Function;
+
+	public:
+	__property String FullName = {read = _FullName};
+	__property String Function = {read = _Function};
+	JbRepresentingPerson(int Id, int NrJb, String FullName, String Function, bool Active);
+	String GetStringValue();
+};
+
+
+
+//template kontenera dla detali (zeby latwiej bylo uzywac tej TObjectListy)
+//	zamiast zapisu
+//		ShowMessage((dynamic_cast<JbPkd*>(JbDetailsManager->CompanyPkdList->Items[0])->Id));
+//	mamy:
+//		ShowMessage(JbDetailsManager->CompanyPkdList->Items[0]->Id);
+//		ShowMessage(JbDetailsManager->CompanyPkdList->ToStringList()->Text);
+//w skrocie: dla wygody (braku castowania)
+template <typename T>
+class JbDetailsContainer : public TObjectList {
+	public:
+	__property T Items[int index] = {read=GetItem};
+	TStringList * ToStringList(bool OnlyActive = true);
+};
+
+template <class T>
+TStringList * JbDetailsContainer<T>::ToStringList(bool OnlyActive){
+	TStringList * tmp = new TStringList();
+	for (int i = 0; i < JbDetailsContainer::Count; i++) {
+		if(OnlyActive){
+			if(JbDetailsContainer::Items[i]->Active)
+				tmp->Add(JbDetailsContainer::Items[i]->GetStringValue());
+		}
+		else tmp->Add(JbDetailsContainer::Items[i]->GetStringValue());
+	}
+	return tmp;
+}
+
+//glowna klasa zawierająca kontenery
+class JbDetailsList {
+	int _JbNr;
+	protected:
+	JbDetailsContainer<JbPkd*> *_CompanyPkdList;
+	JbDetailsContainer<JbBranch*> *_CompanyBranchList;
+	JbDetailsContainer<JbDependComp*> *_CompanyDependList;
+	JbDetailsContainer<JbRepresentingPerson*> *_CompanyRepresentationList;
+
+	public:
+	__property JbDetailsContainer<JbPkd*> * CompanyPkdList = {read = _CompanyPkdList};
+	__property JbDetailsContainer<JbBranch*> * CompanyBranchList = {read = _CompanyBranchList};
+	__property JbDetailsContainer<JbDependComp*> * CompanyDependList = {read = _CompanyDependList};
+	__property JbDetailsContainer<JbRepresentingPerson*> * CompanyRepresentationList = {read = _CompanyRepresentationList};
+	__property int JbNr = {read = _JbNr};
+	JbDetailsList(int JbNr=0);
+	~JbDetailsList();
+};

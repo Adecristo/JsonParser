@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.046,F:\Praca Ceron\zadania i projekty\JsonParser\JsonParserProjectPCH1.h=F:\Praca Ceron\zadania i projekty\JsonParser\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.140,=F:\Praca  Ceron\zadania i projekty\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.162,=F:\Praca  Ceron\zadania i projekty\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.625,F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetails.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.022,=F:\Praca  Ceron\zadania i projekty\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.833,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.dfm=F:\Praca Ceron\zadania i projekty\JsonParser\JbDetailsManager.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.156,F:\Praca Ceron\zadania i projekty\JsonParser\JbDetailsManager.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.639,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.dfm=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetailsManager.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.dfm=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetails.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.833,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.h=F:\Praca Ceron\zadania i projekty\JsonParser\JbDetailsManager.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.h=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetails.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.890,F:\Praca Ceron\zadania i projekty\JsonParser\Project2PCH1.h=F:\Praca  Ceron\zadania i projekty\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.639,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.h=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetailsManager.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.h=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetails.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,F:\Praca Ceron\zadania i projekty\JsonParser\uJsonParser.h=F:\Praca  Ceron\zadania i projekty\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,=F:\Praca  Ceron\zadania i projekty\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.410,=F:\Praca Ceron\zadania i projekty\zadanie2\MailSenderFromFireWare\uConnectionManager.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.854,F:\Praca Ceron\zadania i projekty\JsonParser\uMaain.dfm=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.639,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetailsManager.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.063,F:\Praca Ceron\zadania i projekty\JsonParser\JsonParserProject.cbproj=F:\Praca  Ceron\zadania i projekty\Project2.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetails.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.911,=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,F:\Praca Ceron\zadania i projekty\JsonParser\uJsonParser.cpp=F:\Praca  Ceron\zadania i projekty\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.294,=F:\Praca Ceron\zadania i projekty\zadanie1\sprawozdanie  finansowe\uConnectionManager.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.854,F:\Praca Ceron\zadania i projekty\JsonParser\uMaain.h=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.854,F:\Praca Ceron\zadania i projekty\JsonParser\uMaain.cpp=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.308,F:\Praca Ceron\zadania i projekty\zadanie1\sprawozdanie  finansowe\uConnectionManager.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.545,=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp=F:\Praca Ceron\zadania i projekty\JsonParser\uJbDetails.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,F:\Praca Ceron\zadania i projekty\JsonParser\uJsonParser.dfm=F:\Praca  Ceron\zadania i projekty\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.833,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp=F:\Praca Ceron\zadania i projekty\JsonParser\JbDetailsManager.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.555,=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.874,=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.999,=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.564,F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.935,=F:\Praca Ceron\zadania i projekty\JsonParser\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

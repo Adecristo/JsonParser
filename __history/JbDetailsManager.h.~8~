@@ -1,0 +1,20 @@
+//---------------------------------------------------------------------------
+
+#ifndef JbDetailsManagerH
+#define JbDetailsManagerH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include "uJbDetails.h"
+//---------------------------------------------------------------------------
+class TJbDetailsManage : public TDataModule
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+	TObjectList * _AttachList;
+public:		// User declarations
+	__fastcall TJbDetailsManage(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TJbDetailsManage *JbDetailsManage;
+//---------------------------------------------------------------------------
+#endif

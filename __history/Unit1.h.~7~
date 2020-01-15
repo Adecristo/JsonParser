@@ -1,0 +1,12 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+#include <System.Generics.Collections.hpp>
+//---------------------------------------------------------------------------
+#endif
+
+class chuj{
+	int a;
+	TStringList * _AttachList;
+};

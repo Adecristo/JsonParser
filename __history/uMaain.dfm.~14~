@@ -1,0 +1,163 @@
+object uMain: TuMain
+  Left = 0
+  Top = 0
+  Caption = 'uMain'
+  ClientHeight = 669
+  ClientWidth = 985
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lvProfiles: TListView
+    Left = 34
+    Top = 22
+    Width = 359
+    Height = 290
+    BevelInner = bvNone
+    Columns = <
+      item
+        Caption = 'Id'
+        Width = 0
+      end
+      item
+        Caption = 'Nazwa PKD'
+        Width = 440
+      end>
+    GridLines = True
+    Items.ItemData = {
+      05E70000000500000000000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000
+      00016F0008620069006200690062006900620069003899362700000000FFFFFF
+      FFFFFFFFFF01000000FFFFFFFF00000000017700057700770077007700770058
+      98362700000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000000377007700
+      770003770077007700D06C362700000000FFFFFFFFFFFFFFFF01000000FFFFFF
+      FF0000000003770077007700037700770077002888362700000000FFFFFFFFFF
+      FFFFFF01000000FFFFFFFF000000000377007700770003770077007700708B36
+      27FFFFFFFFFFFFFFFFFFFF}
+    StyleElements = []
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+  object lvDepentComp: TListView
+    Left = 399
+    Top = 22
+    Width = 362
+    Height = 290
+    BevelInner = bvNone
+    Columns = <
+      item
+        Caption = 'Id'
+        Width = 0
+      end
+      item
+        Caption = 'Organizacje zale'#380'ne'
+        Width = 440
+      end>
+    GridLines = True
+    Items.ItemData = {
+      05E70000000500000000000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000
+      00016F0008620069006200690062006900620069003899362700000000FFFFFF
+      FFFFFFFFFF01000000FFFFFFFF00000000017700057700770077007700770058
+      98362700000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000000377007700
+      770003770077007700D06C362700000000FFFFFFFFFFFFFFFF01000000FFFFFF
+      FF0000000003770077007700037700770077002888362700000000FFFFFFFFFF
+      FFFFFF01000000FFFFFFFF000000000377007700770003770077007700708B36
+      27FFFFFFFFFFFFFFFFFFFF}
+    StyleElements = []
+    RowSelect = True
+    TabOrder = 1
+    ViewStyle = vsReport
+  end
+  object lvRepresent: TListView
+    Left = 38
+    Top = 304
+    Width = 355
+    Height = 347
+    BevelInner = bvNone
+    Columns = <
+      item
+        Caption = 'Id'
+        Width = 0
+      end
+      item
+        Caption = 'Reprezentacja'
+        Width = 440
+      end>
+    GridLines = True
+    Items.ItemData = {
+      05E70000000500000000000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000
+      00016F0008620069006200690062006900620069003899362700000000FFFFFF
+      FFFFFFFFFF01000000FFFFFFFF00000000017700057700770077007700770058
+      98362700000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000000377007700
+      770003770077007700D06C362700000000FFFFFFFFFFFFFFFF01000000FFFFFF
+      FF0000000003770077007700037700770077002888362700000000FFFFFFFFFF
+      FFFFFF01000000FFFFFFFF000000000377007700770003770077007700708B36
+      27FFFFFFFFFFFFFFFFFFFF}
+    StyleElements = []
+    RowSelect = True
+    TabOrder = 2
+    ViewStyle = vsReport
+  end
+  object lvBranches: TListView
+    Left = 399
+    Top = 304
+    Width = 362
+    Height = 347
+    BevelInner = bvNone
+    Columns = <
+      item
+        Caption = 'Id'
+        Width = 0
+      end
+      item
+        Caption = 'Oddzia'#322'y'
+        Width = 440
+      end>
+    GridLines = True
+    Items.ItemData = {
+      05E70000000500000000000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000
+      00016F0008620069006200690062006900620069003899362700000000FFFFFF
+      FFFFFFFFFF01000000FFFFFFFF00000000017700057700770077007700770058
+      98362700000000FFFFFFFFFFFFFFFF01000000FFFFFFFF000000000377007700
+      770003770077007700D06C362700000000FFFFFFFFFFFFFFFF01000000FFFFFF
+      FF0000000003770077007700037700770077002888362700000000FFFFFFFFFF
+      FFFFFF01000000FFFFFFFF000000000377007700770003770077007700708B36
+      27FFFFFFFFFFFFFFFFFFFF}
+    StyleElements = []
+    RowSelect = True
+    TabOrder = 3
+    ViewStyle = vsReport
+  end
+  object Button1: TButton
+    Left = 784
+    Top = 22
+    Width = 75
+    Height = 25
+    Caption = 'Parse'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 784
+    Top = 53
+    Width = 97
+    Height = 25
+    Caption = 'save to database'
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 784
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'load'
+    TabOrder = 6
+    OnClick = Button3Click
+  end
+end
