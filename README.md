@@ -11,4 +11,4 @@ Zadaniem programu jest analiza Jsona(odpowiedzi) wygenerowanego przez publiczne 
 
 Screeny z działania programu (jako przykład bank Ing i Millenium)
 ![alt text](https://i.ibb.co/9VsLHW2/jsonparserimg1.png)
-![alt text](https://i.ibb.co/qBNLcNZ/jsonparserimg2.png)
+![alt text](https://i.ibb.co/y06mZ63/jsonparserimg2.png)
