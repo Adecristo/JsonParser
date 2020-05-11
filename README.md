@@ -1,5 +1,4 @@
 # JsonParser
-Projekt zaliczeniowy na przedmiot "Systemy kontroli błędów i wersji" WSB semestr V, rok 2019/2020. Grupa INIS_PR 3.2
 
 # Opis
 Projekt zrealizowany w <b>C++ BuilderXE6</b>. Baza danych to <b>PostgreSQL</b>. Do komunikacji między programem a bazą danych użyta została biblioteka <b>FireDAC</b>.
